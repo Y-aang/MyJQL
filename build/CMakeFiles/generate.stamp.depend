@@ -1,0 +1,23 @@
+# CMake generation dependency list for this directory.
+E:/cmake/share/cmake-3.23/Modules/CMakeCInformation.cmake
+E:/cmake/share/cmake-3.23/Modules/CMakeCXXInformation.cmake
+E:/cmake/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake
+E:/cmake/share/cmake-3.23/Modules/CMakeGenericSystem.cmake
+E:/cmake/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake
+E:/cmake/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake
+E:/cmake/share/cmake-3.23/Modules/CMakeRCInformation.cmake
+E:/cmake/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake
+E:/cmake/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake
+E:/cmake/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+E:/cmake/share/cmake-3.23/Modules/Compiler/MSVC-C.cmake
+E:/cmake/share/cmake-3.23/Modules/Compiler/MSVC-CXX.cmake
+E:/cmake/share/cmake-3.23/Modules/Platform/Windows-MSVC-C.cmake
+E:/cmake/share/cmake-3.23/Modules/Platform/Windows-MSVC-CXX.cmake
+E:/cmake/share/cmake-3.23/Modules/Platform/Windows-MSVC.cmake
+E:/cmake/share/cmake-3.23/Modules/Platform/Windows.cmake
+E:/cmake/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake
+E:/database/PJ2-2/sy_myjql_new_new_final/CMakeLists.txt
+E:/database/PJ2-2/sy_myjql_new_new_final/build/CMakeFiles/3.23.1/CMakeCCompiler.cmake
+E:/database/PJ2-2/sy_myjql_new_new_final/build/CMakeFiles/3.23.1/CMakeCXXCompiler.cmake
+E:/database/PJ2-2/sy_myjql_new_new_final/build/CMakeFiles/3.23.1/CMakeRCCompiler.cmake
+E:/database/PJ2-2/sy_myjql_new_new_final/build/CMakeFiles/3.23.1/CMakeSystem.cmake

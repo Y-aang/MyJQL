@@ -1,0 +1,36 @@
+# CMake generated Testfile for 
+# Source directory: E:/database/PJ2-2/sy_myjql_new_new_final/test
+# Build directory: E:/database/PJ2-2/sy_myjql_new_new_final/build/test
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+if("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+  add_test(test_str "E:/database/PJ2-2/sy_myjql_new_new_final/build/test/Debug/test_str.exe")
+  set_tests_properties(test_str PROPERTIES  _BACKTRACE_TRIPLES "E:/database/PJ2-2/sy_myjql_new_new_final/test/CMakeLists.txt;22;add_test;E:/database/PJ2-2/sy_myjql_new_new_final/test/CMakeLists.txt;0;")
+elseif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+  add_test(test_str "E:/database/PJ2-2/sy_myjql_new_new_final/build/test/Release/test_str.exe")
+  set_tests_properties(test_str PROPERTIES  _BACKTRACE_TRIPLES "E:/database/PJ2-2/sy_myjql_new_new_final/test/CMakeLists.txt;22;add_test;E:/database/PJ2-2/sy_myjql_new_new_final/test/CMakeLists.txt;0;")
+elseif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+  add_test(test_str "E:/database/PJ2-2/sy_myjql_new_new_final/build/test/MinSizeRel/test_str.exe")
+  set_tests_properties(test_str PROPERTIES  _BACKTRACE_TRIPLES "E:/database/PJ2-2/sy_myjql_new_new_final/test/CMakeLists.txt;22;add_test;E:/database/PJ2-2/sy_myjql_new_new_final/test/CMakeLists.txt;0;")
+elseif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+  add_test(test_str "E:/database/PJ2-2/sy_myjql_new_new_final/build/test/RelWithDebInfo/test_str.exe")
+  set_tests_properties(test_str PROPERTIES  _BACKTRACE_TRIPLES "E:/database/PJ2-2/sy_myjql_new_new_final/test/CMakeLists.txt;22;add_test;E:/database/PJ2-2/sy_myjql_new_new_final/test/CMakeLists.txt;0;")
+else()
+  add_test(test_str NOT_AVAILABLE)
+endif()
+if("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+  add_test(test_b_tree "E:/database/PJ2-2/sy_myjql_new_new_final/build/test/Debug/test_b_tree.exe")
+  set_tests_properties(test_b_tree PROPERTIES  _BACKTRACE_TRIPLES "E:/database/PJ2-2/sy_myjql_new_new_final/test/CMakeLists.txt;27;add_test;E:/database/PJ2-2/sy_myjql_new_new_final/test/CMakeLists.txt;0;")
+elseif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+  add_test(test_b_tree "E:/database/PJ2-2/sy_myjql_new_new_final/build/test/Release/test_b_tree.exe")
+  set_tests_properties(test_b_tree PROPERTIES  _BACKTRACE_TRIPLES "E:/database/PJ2-2/sy_myjql_new_new_final/test/CMakeLists.txt;27;add_test;E:/database/PJ2-2/sy_myjql_new_new_final/test/CMakeLists.txt;0;")
+elseif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+  add_test(test_b_tree "E:/database/PJ2-2/sy_myjql_new_new_final/build/test/MinSizeRel/test_b_tree.exe")
+  set_tests_properties(test_b_tree PROPERTIES  _BACKTRACE_TRIPLES "E:/database/PJ2-2/sy_myjql_new_new_final/test/CMakeLists.txt;27;add_test;E:/database/PJ2-2/sy_myjql_new_new_final/test/CMakeLists.txt;0;")
+elseif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+  add_test(test_b_tree "E:/database/PJ2-2/sy_myjql_new_new_final/build/test/RelWithDebInfo/test_b_tree.exe")
+  set_tests_properties(test_b_tree PROPERTIES  _BACKTRACE_TRIPLES "E:/database/PJ2-2/sy_myjql_new_new_final/test/CMakeLists.txt;27;add_test;E:/database/PJ2-2/sy_myjql_new_new_final/test/CMakeLists.txt;0;")
+else()
+  add_test(test_b_tree NOT_AVAILABLE)
+endif()

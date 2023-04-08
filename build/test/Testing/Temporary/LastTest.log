@@ -1,0 +1,37 @@
+Start testing: Jun 10 17:42 ?D1迆㊣那℅?那㊣??
+----------------------------------------------------------
+1/2 Testing: test_str
+1/2 Test: test_str
+Command: "E:/database/PJ2-2/sy_myjql_new_new_final/build/test/Release/test_str.exe"
+Directory: E:/database/PJ2-2/sy_myjql_new_new_final/build/test
+"test_str" start time: Jun 10 17:42 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.97 sec
+----------------------------------------------------------
+Test Passed.
+"test_str" end time: Jun 10 17:42 ?D1迆㊣那℅?那㊣??
+"test_str" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: test_b_tree
+2/2 Test: test_b_tree
+Command: "E:/database/PJ2-2/sy_myjql_new_new_final/build/test/Release/test_b_tree.exe"
+Directory: E:/database/PJ2-2/sy_myjql_new_new_final/build/test
+"test_b_tree" start time: Jun 10 17:42 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+PAGE_SIZE = 128
+DEGREE = 2
+BNode size: 104
+END OF TEST
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"test_b_tree" end time: Jun 10 17:42 ?D1迆㊣那℅?那㊣??
+"test_b_tree" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 10 17:42 ?D1迆㊣那℅?那㊣??

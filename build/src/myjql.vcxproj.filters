@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\database\PJ2-2\sy_myjql_new_new_final\src\file_io.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\database\PJ2-2\sy_myjql_new_new_final\src\buffer_pool.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\database\PJ2-2\sy_myjql_new_new_final\src\block.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\database\PJ2-2\sy_myjql_new_new_final\src\hash_map.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\database\PJ2-2\sy_myjql_new_new_final\src\table.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\database\PJ2-2\sy_myjql_new_new_final\src\str.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\database\PJ2-2\sy_myjql_new_new_final\src\b_tree.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\database\PJ2-2\sy_myjql_new_new_final\src\myjql.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\database\PJ2-2\sy_myjql_new_new_final\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EF19F222-FD98-3905-AA87-C14E24B7E9E4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

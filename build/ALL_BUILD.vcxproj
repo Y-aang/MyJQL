@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E4D87DA8-5A6C-3989-B342-000A76A7797F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\database\PJ2-2\sy_myjql_new_new_final\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/database/PJ2-2/sy_myjql_new_new_final/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+E:\cmake\bin\cmake.exe -SE:/database/PJ2-2/sy_myjql_new_new_final -BE:/database/PJ2-2/sy_myjql_new_new_final/build --check-stamp-file E:/database/PJ2-2/sy_myjql_new_new_final/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\cmake\share\cmake-3.23\Modules\CMakeCInformation.cmake;E:\cmake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;E:\cmake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;E:\cmake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;E:\cmake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;E:\cmake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;E:\cmake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;E:\cmake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;E:\cmake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;E:\cmake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\cmake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;E:\cmake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;E:\cmake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;E:\cmake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;E:\cmake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;E:\cmake\share\cmake-3.23\Modules\Platform\Windows.cmake;E:\cmake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;E:\database\PJ2-2\sy_myjql_new_new_final\build\CMakeFiles\3.23.1\CMakeCCompiler.cmake;E:\database\PJ2-2\sy_myjql_new_new_final\build\CMakeFiles\3.23.1\CMakeCXXCompiler.cmake;E:\database\PJ2-2\sy_myjql_new_new_final\build\CMakeFiles\3.23.1\CMakeRCCompiler.cmake;E:\database\PJ2-2\sy_myjql_new_new_final\build\CMakeFiles\3.23.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\database\PJ2-2\sy_myjql_new_new_final\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/database/PJ2-2/sy_myjql_new_new_final/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+E:\cmake\bin\cmake.exe -SE:/database/PJ2-2/sy_myjql_new_new_final -BE:/database/PJ2-2/sy_myjql_new_new_final/build --check-stamp-file E:/database/PJ2-2/sy_myjql_new_new_final/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\cmake\share\cmake-3.23\Modules\CMakeCInformation.cmake;E:\cmake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;E:\cmake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;E:\cmake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;E:\cmake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;E:\cmake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;E:\cmake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;E:\cmake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;E:\cmake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;E:\cmake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\cmake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;E:\cmake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;E:\cmake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;E:\cmake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;E:\cmake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;E:\cmake\share\cmake-3.23\Modules\Platform\Windows.cmake;E:\cmake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;E:\database\PJ2-2\sy_myjql_new_new_final\build\CMakeFiles\3.23.1\CMakeCCompiler.cmake;E:\database\PJ2-2\sy_myjql_new_new_final\build\CMakeFiles\3.23.1\CMakeCXXCompiler.cmake;E:\database\PJ2-2\sy_myjql_new_new_final\build\CMakeFiles\3.23.1\CMakeRCCompiler.cmake;E:\database\PJ2-2\sy_myjql_new_new_final\build\CMakeFiles\3.23.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\database\PJ2-2\sy_myjql_new_new_final\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/database/PJ2-2/sy_myjql_new_new_final/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+E:\cmake\bin\cmake.exe -SE:/database/PJ2-2/sy_myjql_new_new_final -BE:/database/PJ2-2/sy_myjql_new_new_final/build --check-stamp-file E:/database/PJ2-2/sy_myjql_new_new_final/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\cmake\share\cmake-3.23\Modules\CMakeCInformation.cmake;E:\cmake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;E:\cmake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;E:\cmake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;E:\cmake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;E:\cmake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;E:\cmake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;E:\cmake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;E:\cmake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;E:\cmake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\cmake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;E:\cmake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;E:\cmake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;E:\cmake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;E:\cmake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;E:\cmake\share\cmake-3.23\Modules\Platform\Windows.cmake;E:\cmake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;E:\database\PJ2-2\sy_myjql_new_new_final\build\CMakeFiles\3.23.1\CMakeCCompiler.cmake;E:\database\PJ2-2\sy_myjql_new_new_final\build\CMakeFiles\3.23.1\CMakeCXXCompiler.cmake;E:\database\PJ2-2\sy_myjql_new_new_final\build\CMakeFiles\3.23.1\CMakeRCCompiler.cmake;E:\database\PJ2-2\sy_myjql_new_new_final\build\CMakeFiles\3.23.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\database\PJ2-2\sy_myjql_new_new_final\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/database/PJ2-2/sy_myjql_new_new_final/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+E:\cmake\bin\cmake.exe -SE:/database/PJ2-2/sy_myjql_new_new_final -BE:/database/PJ2-2/sy_myjql_new_new_final/build --check-stamp-file E:/database/PJ2-2/sy_myjql_new_new_final/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\cmake\share\cmake-3.23\Modules\CMakeCInformation.cmake;E:\cmake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;E:\cmake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;E:\cmake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;E:\cmake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;E:\cmake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;E:\cmake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;E:\cmake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;E:\cmake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;E:\cmake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\cmake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;E:\cmake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;E:\cmake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;E:\cmake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;E:\cmake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;E:\cmake\share\cmake-3.23\Modules\Platform\Windows.cmake;E:\cmake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;E:\database\PJ2-2\sy_myjql_new_new_final\build\CMakeFiles\3.23.1\CMakeCCompiler.cmake;E:\database\PJ2-2\sy_myjql_new_new_final\build\CMakeFiles\3.23.1\CMakeCXXCompiler.cmake;E:\database\PJ2-2\sy_myjql_new_new_final\build\CMakeFiles\3.23.1\CMakeRCCompiler.cmake;E:\database\PJ2-2\sy_myjql_new_new_final\build\CMakeFiles\3.23.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\database\PJ2-2\sy_myjql_new_new_final\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\database\PJ2-2\sy_myjql_new_new_final\build\ZERO_CHECK.vcxproj">
+      <Project>{0947CD84-1A5B-3109-B433-34731C7E2FF8}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\database\PJ2-2\sy_myjql_new_new_final\build\src\myjql.vcxproj">
+      <Project>{FB7CB06F-0079-3F77-9EE4-0FB99A77E71B}</Project>
+      <Name>myjql</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\database\PJ2-2\sy_myjql_new_new_final\build\driver\myjqlclient.vcxproj">
+      <Project>{47A91BE3-407D-3988-873A-7EC5356C9AC7}</Project>
+      <Name>myjqlclient</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\database\PJ2-2\sy_myjql_new_new_final\build\main\myjqlserver.vcxproj">
+      <Project>{3E909594-5B09-3527-9F3C-0A85C9AB8EFB}</Project>
+      <Name>myjqlserver</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\database\PJ2-2\sy_myjql_new_new_final\build\main\myjqlshell.vcxproj">
+      <Project>{01D1C66E-3847-3186-A2D5-FA184FC45E36}</Project>
+      <Name>myjqlshell</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\database\PJ2-2\sy_myjql_new_new_final\build\test\test_b_tree.vcxproj">
+      <Project>{93F4A3DE-BD35-396B-8F07-1B5B6D98EC9F}</Project>
+      <Name>test_b_tree</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\database\PJ2-2\sy_myjql_new_new_final\build\test\test_hash_map.vcxproj">
+      <Project>{BC622280-425F-309D-8E8C-0D08F047AB5E}</Project>
+      <Name>test_hash_map</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\database\PJ2-2\sy_myjql_new_new_final\build\test\test_str.vcxproj">
+      <Project>{86CC5A85-2E79-3FC3-9838-E8EA239C506C}</Project>
+      <Name>test_str</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

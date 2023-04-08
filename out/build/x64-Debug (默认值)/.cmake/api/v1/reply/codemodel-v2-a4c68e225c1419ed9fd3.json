@@ -1,0 +1,173 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "test",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test",
+					"targetIndexes" : 
+					[
+						4,
+						5,
+						6
+					]
+				},
+				{
+					"build" : "driver",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "driver",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "main",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "main",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "myjql",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "myjql::@145eef247bfb46b6828c",
+					"jsonFile" : "target-myjql-Debug-ae8f762f363b25a3bba1.json",
+					"name" : "myjql",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "myjqlclient::@79c4302a1c0b85b97858",
+					"jsonFile" : "target-myjqlclient-Debug-faf0666563ed2f2577e8.json",
+					"name" : "myjqlclient",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "myjqlserver::@15c4a824ab2728a3f5e7",
+					"jsonFile" : "target-myjqlserver-Debug-b81ad0436213a4c81cda.json",
+					"name" : "myjqlserver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "myjqlshell::@15c4a824ab2728a3f5e7",
+					"jsonFile" : "target-myjqlshell-Debug-2567db0ad1a3f5a1917e.json",
+					"name" : "myjqlshell",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "test_b_tree::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_b_tree-Debug-dac55d28a68daaef76be.json",
+					"name" : "test_b_tree",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "test_hash_map::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_hash_map-Debug-0131ea76b4fba049d455.json",
+					"name" : "test_hash_map",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "test_str::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_str-Debug-8da25e6a8c57d0cb9ed4.json",
+					"name" : "test_str",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/database/PJ2/myjql/out/build/x64-Debug (默认值)",
+		"source" : "E:/database/PJ2/myjql"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}
